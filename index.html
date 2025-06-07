@@ -4,6 +4,60 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>What's the Weather App</title>
+    <link rel="stylesheet" href="src/style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="full-page-container">
+      <header>
+        <form id="location-search">
+          <input
+            type="search"
+            placeholder="Enter a city..."
+            required
+            class="search-input"
+            id="search-input"
+          />
+          <input type="submit" value="search" class="search-button" />
+        </form>
+      </header>
+      <br />
+      <span class="main-weather-emoji">☀️</span>
+      <h1>TODAY IN NEW YORK</h1>
+      <div class="days">
+        <ul>
+          <li>
+            ⛅ Monday <br />
+            <span><strong>20°C</strong></span> - 23°C
+          </li>
+          <li>
+            ☀️ Tuesday <br />
+            <span><strong>23°C</strong></span> - 25°C
+          </li>
+          <li>
+            ⛅ Wednesday <br />
+            <span><strong>21°C</strong></span> - 24°C
+          </li>
+          <li>
+            ☀️ Thursday <br />
+            <span><strong>25°C</strong></span> - 27°C
+          </li>
+          <li>
+            ⛅ Friday <br />
+            <span><strong>23°C</strong></span> - 26°C
+          </li>
+          <li>
+            ⛅ Saturday <br />
+            <span><strong>19°C</strong></span> - 21°C
+          </li>
+        </ul>
+      </div>
+      <footer>
+        This project was coded by
+        <a href="#" target="_blank">Bec Simpson</a> and is
+        <a href="#" target="_blank"> on GitHub</a>. <br />
+        The project is hosted on <a href="#" target="_blank">Netlify</a>.
+      </footer>
+    </div>
+  </body>
+  <script src="src/index.js"></script>
 </html>
