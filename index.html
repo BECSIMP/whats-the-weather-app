@@ -15,7 +15,7 @@
   <body>
     <div class="full-page-container">
       <header>
-        <form id="location-search">
+        <form class="location-search" id="location-search">
           <input
             type="search"
             placeholder="Enter a city..."
@@ -27,40 +27,28 @@
         </form>
       </header>
       <br />
-      <span class="main-weather-emoji">24°C ☀️</span>
-      <h1>TODAY IN NEW YORK</h1>
-      <div class="days">
-        <ul>
-          <li>
-            ⛅ Monday <br />
-            <span><strong>20°C</strong></span> - 23°C
-          </li>
-          <li>
-            ☀️ Tuesday <br />
-            <span><strong>23°C</strong></span> - 25°C
-          </li>
-          <li>
-            ⛅ Wednesday <br />
-            <span><strong>21°C</strong></span> - 24°C
-          </li>
-          <li>
-            ☀️ Thursday <br />
-            <span><strong>25°C</strong></span> - 27°C
-          </li>
-          <li>
-            ⛅ Friday <br />
-            <span><strong>23°C</strong></span> - 26°C
-          </li>
-          <li>
-            ⛅ Saturday <br />
-            <span><strong>19°C</strong></span> - 21°C
-          </li>
-        </ul>
-      </div>
+      <main>
+        <div class="weather-app-data">
+          <div>
+            <h1 class="main-weather-city">New York</h1>
+            <p class="main-weather-details">
+              Sunday 18:12, Partly cloudy
+              <br />
+              Humidity: <strong>61%</strong>, Wind: <strong>13 mph</strong>
+            </p>
+          </div>
+          <div class="main-weather-details-container">
+            <div class="main-weather-emoji">☀️</div>
+            <div class="main-weather-temp">24</div>
+            <div class="main-weather-unit">°C</div>
+          </div>
+        </div>
+      </main>
       <footer>
         This project was coded by
         <a href="#" target="_blank">Bec Simpson</a> and is open-sourced on
         <a href="#" target="_blank"> GitHub</a>. <br />
+        <br />
         The project is hosted on <a href="#" target="_blank">Netlify</a>.
       </footer>
     </div>
